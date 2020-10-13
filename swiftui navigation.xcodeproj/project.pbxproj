@@ -13,6 +13,7 @@
 		3F797C2E2535AA69002B387D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C2D2535AA69002B387D /* Preview Assets.xcassets */; };
 		3F797C392535AA69002B387D /* swiftui_navigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F797C382535AA69002B387D /* swiftui_navigationTests.swift */; };
 		3F797C442535AA69002B387D /* swiftui_navigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F797C432535AA69002B387D /* swiftui_navigationUITests.swift */; };
+		3F797C612535B5A6002B387D /* spooky scary skeletons.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F797C602535B5A6002B387D /* spooky scary skeletons.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F797C3F2535AA69002B387D /* swiftui navigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui navigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F797C432535AA69002B387D /* swiftui_navigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_navigationUITests.swift; sourceTree = "<group>"; };
 		3F797C452535AA69002B387D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F797C602535B5A6002B387D /* spooky scary skeletons.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "spooky scary skeletons.gif"; path = "../../../Downloads/spooky scary skeletons.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,9 @@
 			children = (
 				3F797C262535AA68002B387D /* swiftui_navigationApp.swift */,
 				3F797C282535AA68002B387D /* ContentView.swift */,
+				3F797C5F2535B538002B387D /* New Group */,
 				3F797C2A2535AA69002B387D /* Assets.xcassets */,
+				3F797C602535B5A6002B387D /* spooky scary skeletons.gif */,
 				3F797C2F2535AA69002B387D /* Info.plist */,
 				3F797C2C2535AA69002B387D /* Preview Content */,
 			);
@@ -128,6 +132,13 @@
 				3F797C452535AA69002B387D /* Info.plist */,
 			);
 			path = "swiftui navigationUITests";
+			sourceTree = "<group>";
+		};
+		3F797C5F2535B538002B387D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F797C2E2535AA69002B387D /* Preview Assets.xcassets in Resources */,
+				3F797C612535B5A6002B387D /* spooky scary skeletons.gif in Resources */,
 				3F797C2B2535AA69002B387D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

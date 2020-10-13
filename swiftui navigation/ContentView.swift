@@ -6,11 +6,28 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            NavigationLink(destination: SpookyScaryView()){
+                Text("Push for spoops!")
+            }
+
+                .padding()
+        }
+    }
+}
+
+struct SpookyScaryView:View {
+    var body: some View {
+        ZStack {
+            Color.black.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            Image("skeleton eating")
+        }
+
+
     }
 }
 
